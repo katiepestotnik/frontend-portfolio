@@ -1,0 +1,13 @@
+.main-color {
+    background-color: #6121dd;
+}
+.nav-items, .nav-items:hover {
+    color: #fff;
+    font-size:x-large;
+    text-decoration: none;
+    padding: 10px;
+}
+.nav-main {
+    font-size:xx-large;
+    color: #fff;
+}
