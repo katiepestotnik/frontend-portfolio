@@ -31,9 +31,9 @@
 }
 .style-projects {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
-    margin-bottom: 50px;
+    margin: 50px;
 }
 .background-style {
     background: linear-gradient(#d4c3f6, #b597ef, #d4c3f6);
@@ -67,20 +67,20 @@
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-gap: 20px;
+    width: 500px;
     border: 5px solid #6121dd;
     border-right: 10px solid #6121dd;
     border-top: 10px solid #6121dd;
     border-bottom: 10px solid #6121dd;
-    width: 50%;
-    margin-top: 20px;
-    margin-left: 10px;
+    margin: 0 auto;
+
 }
 .headshot{
     height: 250px;
     width: 250px;
     border: 5px solid #6121dd;
     border-right: 10px solid #6121dd;
-    grid-column: 1/1;
+    grid-column: 1/2;
 }
 .card-items{
     grid-column: 2/2;
@@ -108,12 +108,14 @@
     margin: 0 auto;
     margin-top: 20px;
     color: #f4effd;
-    height: 250px;
 }
 .blurb{
     font-size: 20px;
     width: 70%;
-    height: 60%;
     margin: 0 auto;
+    padding-bottom: 25px;
+}
+.tech{
+    height: 500px;
 }
 

@@ -1,6 +1,5 @@
-import './App.css';
 import Nav from './components/Nav';
-import Home from './pages/Home';
+import Skills from './pages/Skills';
 import About from './pages/About';
 import Projects from './pages/Projects';
 
@@ -14,13 +13,13 @@ function App() {
       <Nav />
       <Switch>
         <Route exact path="/">
-          <Home/>
+          <About  URL={URL}/>
         </Route>
         <Route path="/projects">
           <Projects URL={URL}/>
         </Route>
-        <Route path="/about">
-          <About URL={URL}/>
+        <Route path="/skills">
+          <Skills/>
         </Route>
       </Switch>
     </div>
