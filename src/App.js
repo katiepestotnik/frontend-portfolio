@@ -10,7 +10,7 @@ import { Route, Switch } from 'react-router-dom';
 function App() {
   const URL = 'https://backend-portfolio-katie.herokuapp.com/'
   return (
-    <>
+    <div className='universal'>
       <Nav />
       <Switch>
         <Route exact path="/">
@@ -23,7 +23,7 @@ function App() {
           <About URL={URL}/>
         </Route>
       </Switch>
-    </>
+    </div>
 
   );
 }

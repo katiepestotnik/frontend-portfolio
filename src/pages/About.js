@@ -1,6 +1,4 @@
 import { useState, useEffect } from 'react'; 
-import { Link } from 'react-router-dom';
-
 
 function About({ URL }) {
     const [about, setAbout] = useState(null);
@@ -14,14 +12,24 @@ function About({ URL }) {
     const loaded = () => {
         return (
             <>
-                <h1>{about.name}</h1>
-                <div>{about.brand}</div>
-                <img src={about.photo} alt="Headshot" />
-                <a href="mailto:katie.pestotnik@gmail.com" style={{display: "block"}}>{about.email}</a>
-                <a href="https://github.com/katiepestotnik" target="_blank" rel="noopener noreferrer" style={{display: "block"}}>GitHub</a>
-                <a href="https://docs.google.com/document/d/e/2PACX-1vSeEK25Q_oQtS6m_HsBvtwdPUW-cs6u-Tg2o6j449hF79yRK5uulWv0eP6-CgmOpw/pub" target="_blank" rel="noreferrer noopener">Resume</a>
+                <div  className='brand'>
+                    <h2>Why I love software development...</h2>
+                    <div className='blurb'>{about.brand}
+                    </div>
+                </div>
                 <div>{about.tech}</div>
+            <section className='card'>
+                    <img className="headshot" src={about.photo} alt="Headshot" />
+                    <div className='card-items'>
+                <h1 className='name'>{about.name}</h1>
+                <a href="mailto:katie.pestotnik@gmail.com" className='contact-info'>{about.email}</a>
+                        <a href="https://github.com/katiepestotnik" target="_blank" rel="noopener noreferrer" className='contact-info'
+                            style={{ display: "block" }}>GitHub</a>
+                <a href="https://docs.google.com/document/d/e/2PACX-1vSeEK25Q_oQtS6m_HsBvtwdPUW-cs6u-Tg2o6j449hF79yRK5uulWv0eP6-CgmOpw/pub" target="_blank" rel="noreferrer noopener" className='contact-info'>Resume</a>
+                    </div>
+                </section>
                 </>
+
                 
         )
     }

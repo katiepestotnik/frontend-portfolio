@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+
+.universal{
+    background-color: #f4effd;
+}
+
 .main-color {
     background-color: #6121dd;
 }
@@ -8,6 +14,106 @@
     padding: 10px;
 }
 .nav-main {
-    font-size:xx-large;
+    font-size:60px;
     color: #fff;
+    font-family: "Comforter", cursive;
 }
+.size-images {
+    height: 400px;
+    width: 315px;
+    margin: 20px;
+    border: 2px solid #a079eb;
+  }
+.title{
+    text-align: center;
+    margin-top: 20px;
+    color: #6121dd;
+}
+.style-projects {
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.background-style {
+    background: linear-gradient(#d4c3f6, #b597ef, #d4c3f6);
+    margin: 0 auto;
+    height: 525px;
+    border: 2px solid #a079eb;
+  }
+.live-button{
+    background-color: #6121dd;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+    height: 40px;
+    font-size: 17px;
+}
+.anchor-button{
+    display: block;
+    text-align: center;
+}
+.showcase {
+    width: 300px;
+    text-align: center;
+    margin-left: 20px;
+    color: #6121dd;
+    font-size: large;
+    font-weight: 700;
+}
+/* about */
+.card{
+    background-color: #f4effd;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 20px;
+    border: 5px solid #6121dd;
+    border-right: 10px solid #6121dd;
+    border-top: 10px solid #6121dd;
+    border-bottom: 10px solid #6121dd;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.headshot{
+    height: 250px;
+    width: 250px;
+    border: 5px solid #6121dd;
+    border-right: 10px solid #6121dd;
+    grid-column: 1/1;
+}
+.card-items{
+    grid-column: 2/2;
+    margin-top: 70px;
+}
+.name{
+    color: #331275;
+    font-family: "Comforter", cursive;
+    font-weight: 600;
+}
+.contact-info{
+    color: #331275;
+
+}
+.contact-info:hover{
+    color: #331275;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.brand{
+    background-color: #6121dd;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: #f4effd;
+    height: 250px;
+}
+.blurb{
+    font-size: 20px;
+    width: 70%;
+    height: 60%;
+    margin: 0 auto;
+}
+
