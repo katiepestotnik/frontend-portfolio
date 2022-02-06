@@ -1,3 +1,4 @@
+import pdf from '../CurrentResume.pdf'
 const about = {
     "name": "Katie Pestotnik",
     "photo": "https://i.imgur.com/zR7X6uB.jpg?2",
@@ -20,7 +21,7 @@ function About(props) {
                         <a href="mailto:katie.pestotnik@gmail.com" className='contact-info'><img className="logos" src="http://lofrev.net/wp-content/photos/2016/06/email_logo.png" alt="email"/></a>
                         <a href="https://github.com/katiepestotnik" target="_blank" rel="noopener noreferrer" className='contact-info'
                         ><img className="logos" src="https://1000logos.net/wp-content/uploads/2018/11/GitHub-logo.png" alt="github logo"/></a>
-                        <a href="https://docs.google.com/document/d/e/2PACX-1vSeEK25Q_oQtS6m_HsBvtwdPUW-cs6u-Tg2o6j449hF79yRK5uulWv0eP6-CgmOpw/pub" target="_blank" rel="noreferrer noopener" className='contact-info'><img className="logos" src="https://www.conovercompany.com/wp-content/uploads/2019/06/wr-resumes-logo.png" alt="resume logo" /></a>
+                        <a href={pdf} target="_blank" download="CurrentResume.pdf" className='contact-info' rel='noreferrer noopener'><img className="logos" src="https://www.conovercompany.com/wp-content/uploads/2019/06/wr-resumes-logo.png" alt="resume logo" /></a>
                     </div>
                 </div>
             </section>
