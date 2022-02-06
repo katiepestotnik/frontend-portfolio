@@ -29,8 +29,10 @@ const projects =[{
 }]
 
 function Projects(props) {
-    return <section className='style-projects'>
-        {projects.map((project) => {
+    return (
+        <div className="entire">
+            <section className='style-projects'>
+            {projects.map((project) => {
             return <div>
                 <h3 className='title'>{project.name}</h3>
                 <a className="anchor-button" rel='noreferrer noopener' target='_blank'
@@ -38,9 +40,10 @@ function Projects(props) {
                 <div className='background-style'>
                     <img className="size-images" src={project.image} alt="projects" /><div className='showcase'>{project.showcase}</div></div>
                         
-            </div>
-        })}
-    </section>
+                </div>
+            })}
+            </section>
+        </div>)
 }
 
 export default Projects;
