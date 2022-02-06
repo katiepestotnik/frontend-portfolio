@@ -17,6 +17,7 @@ function About(props) {
                 <img className="headshot" src={about.photo} alt="Headshot" />
                 <div id='contact' className='card-items'>
                     <h1 className='name'>{about.name}</h1>
+                    <h1 className="software">Software Developer</h1>
                     <div className="logo-box">
                         <a href="mailto:katie.pestotnik@gmail.com" className='contact-info'><img className="logos" src="http://lofrev.net/wp-content/photos/2016/06/email_logo.png" alt="email"/></a>
                         <a href="https://github.com/katiepestotnik" target="_blank" rel="noopener noreferrer" className='contact-info'
