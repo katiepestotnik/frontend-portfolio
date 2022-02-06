@@ -115,7 +115,26 @@
     margin: 0 auto;
     padding-bottom: 25px;
 }
-.tech{
-    height: 500px;
+.skill-box{
+    display: inline-grid;
+    width: 140px;
+    margin: 10px;
 }
+.logo-img{
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    padding: 7px;
 
+}
+.tech-name{
+    font-size: 20px;
+    margin: 0 auto;
+    color: #331275
+
+}
+.full-page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
