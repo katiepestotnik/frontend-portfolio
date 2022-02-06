@@ -104,19 +104,26 @@
 
 }
 .brand{
-    background-color: #055;
+    background-image: url("https://www.ppt-backgrounds.net/thumbs/subtle-swirl-template-margins-blue-style-backgrounds.jpg");
     text-align: center;
     width: 80%;
     margin: 0 auto;
     margin-top: 20px;
-    color: #f4effd;
+    color: #6121dd;
     padding-top: 10px;
+    opacity: 0.8;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.blurb{
+.blurb, .blurb-title{
     font-size: 20px;
     width: 70%;
     margin: 0 auto;
     padding-bottom: 25px;
+    font-weight: 700;
+}
+.blurb-title{
+    font-size: 30px;
 }
 .skill-box{
     display: inline-grid;

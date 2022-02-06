@@ -25,7 +25,7 @@ function About(props) {
                 </div>
             </section>
             <div className='brand'>
-                <h2>A little about me...</h2>
+                <h2 className="blurb-title">A little about me...</h2>
                 <div className='blurb'>I am a budding, enthusiastic software developer. <br />Coding is truly amazing and incapsulates the perfect balance of challenges and joys. <br />Solving a coding problem is one of the best ways that I can spend my time.<br />Sometimes it is hard to believe that coding is considered a "job"!
                 </div>
             </div>
