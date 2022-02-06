@@ -198,3 +198,7 @@
     text-decoration: none;
     cursor: pointer;
 }
+.link-buttons{
+    display: flex;
+    justify-content: center;
+}
