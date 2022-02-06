@@ -59,7 +59,7 @@ const skills = [{
 
 function Skills(props) {
     return (
-        <>
+        <div className='entire'>
             <MDBAnimation duration="3s"
             infinite="true"
             className="animated tada skills">Skills</MDBAnimation>
@@ -73,7 +73,7 @@ function Skills(props) {
             })}
 
         </div>
-        </>
+        </div>
     );
 }
 

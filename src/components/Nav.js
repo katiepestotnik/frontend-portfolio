@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
+import { useState } from 'react';
 
 function Nav(props) {
     return (
@@ -12,9 +13,18 @@ function Nav(props) {
   </button>
   <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div style={{ justifyContent: 'flex-end', alignItems: 'center'}}className="navbar-nav container">
-      <Link to="/"className="nav-item nav-items nav-link-katie">About </Link>
-      <Link to="/projects"className="nav-item nav-items nav-link-katie">Projects</Link>
-              <Link to="/skills" className="nav-item nav-items nav-link-katie" >Skills</Link>
+              <Link to="/"
+                data-toggle="collapse"
+                data-target="#navbarNavAltMarkup"
+                className="nav-item nav-items nav-link-katie">About </Link>
+              <Link
+                data-toggle="collapse"
+                data-target="#navbarNavAltMarkup"
+                to="/projects" className="nav-item nav-items nav-link-katie">Projects</Link>
+              <Link
+                data-toggle="collapse"
+                data-target="#navbarNavAltMarkup"
+                to="/skills" className="nav-item nav-items nav-link-katie" >Skills</Link>
               {/* <HashLink smooth to="/about/#contact"class="nav-item nav-items" >Contact Info</HashLink> */}
     </div>
   </div>

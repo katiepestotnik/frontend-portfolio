@@ -117,6 +117,7 @@
     opacity: 0.8;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: 100px;
 }
 .blurb, .blurb-title{
     font-size: 20px;
