@@ -1,3 +1,8 @@
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import "bootstrap-css-only/css/bootstrap.min.css";
+import "mdbreact/dist/css/mdb.css";
+import { MDBAnimation} from "mdbreact";
+
 const skills = [{
     tech: "JavaScript",
     img: "https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png"
@@ -52,10 +57,12 @@ const skills = [{
 }
 ]
 
-
-
 function Skills(props) {
     return (
+        <>
+            <MDBAnimation duration="3s"
+            infinite="true"
+            className="animated tada skills">Skills</MDBAnimation>
         <div className="full-page">
             {skills.map((skill) => {
                 return (
@@ -66,6 +73,7 @@ function Skills(props) {
             })}
 
         </div>
+        </>
     );
 }
 

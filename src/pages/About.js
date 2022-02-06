@@ -1,42 +1,35 @@
-import { useState, useEffect } from 'react'; 
-
-function About({ URL }) {
-    const [about, setAbout] = useState(null);
-    const getAbout = async () => {
-        const response = await fetch(URL + "about");
-        const data = await response.json();
-        setAbout(data);
-    };
-
-    useEffect(() => getAbout(), []);
-    const loaded = () => {
-        return (
-            <>
-                <br/>
-            <section className='card'>
-                    <img className="headshot" src={about.photo} alt="Headshot" />
-                    <div id='contact'className='card-items'>
-                <h1 className='name'>{about.name}</h1>
-                <a href="mailto:katie.pestotnik@gmail.com" className='contact-info'>{about.email}</a><br/>
-                        <a href="https://github.com/katiepestotnik" target="_blank" rel="noopener noreferrer" className='contact-info'
-                        >GitHub</a><br/>
-                <a href="https://docs.google.com/document/d/e/2PACX-1vSeEK25Q_oQtS6m_HsBvtwdPUW-cs6u-Tg2o6j449hF79yRK5uulWv0eP6-CgmOpw/pub" target="_blank" rel="noreferrer noopener" className='contact-info'>Resume</a>
-                    </div>
-                </section>
-                <div  className='brand'>
-                    <h2>A little about me...</h2>
-                    <div className='blurb'>I am a budding, enthusiastic software developer. <br/>Coding is truly amazing and incapsulates the perfect balance of challenges and joys. <br/>Solving a coding problem is one of the best ways that I can spend my time.<br/>Sometimes it is hard to believe that coding is considered a "job"!
-                    </div>
-                </div>
-                </>
-
-                
-        )
-    }
-
-    return about ? loaded(): (<div class="spinner-border" role="status">
-    <span class="sr-only">Loading...</span>
-  </div>);
+const about = {
+    "name": "Katie Pestotnik",
+    "photo": "https://i.imgur.com/zR7X6uB.jpg?2",
+    "brand": "I am a budding software developer with a background in a variety of administrative roles. I use my grit to solve complex problems by pushing through roadblocks and breaking down the parts of a problem to allow code to run the way it is designed to run. I am motivated by a passion for excellence and personal growth. Coding is truly amazing and the perfect balance of challenges and joys." ,
+    "tech": "Javascript, React, React Native, Ruby, Ruby on Rails, MongoDB, PostgreSQL, Express, Node, CSS, HTML, Bootstrap",
+    "resume": "https://docs.google.com/document/d/e/2PACX-1vSeEK25Q_oQtS6m_HsBvtwdPUW-cs6u-Tg2o6j449hF79yRK5uulWv0eP6-CgmOpw/pub",
+    "email": "Katie.Pestotnik@gmail.com",
+    "gitHub": "https://github.com/katiepestotnik"
 }
 
+function About(props) {
+    return (
+        <>
+            <br />
+            <section className='card-katie'>
+                <img className="headshot" src={about.photo} alt="Headshot" />
+                <div id='contact' className='card-items'>
+                    <h1 className='name'>{about.name}</h1>
+                    <div className="logo-box">
+                        <a href="mailto:katie.pestotnik@gmail.com" className='contact-info'><img className="logos" src="http://lofrev.net/wp-content/photos/2016/06/email_logo.png" alt="email"/></a>
+                        <a href="https://github.com/katiepestotnik" target="_blank" rel="noopener noreferrer" className='contact-info'
+                        ><img className="logos" src="https://1000logos.net/wp-content/uploads/2018/11/GitHub-logo.png" alt="github logo"/></a>
+                        <a href="https://docs.google.com/document/d/e/2PACX-1vSeEK25Q_oQtS6m_HsBvtwdPUW-cs6u-Tg2o6j449hF79yRK5uulWv0eP6-CgmOpw/pub" target="_blank" rel="noreferrer noopener" className='contact-info'><img className="logos" src="https://www.conovercompany.com/wp-content/uploads/2019/06/wr-resumes-logo.png" alt="resume logo" /></a>
+                    </div>
+                </div>
+            </section>
+            <div className='brand'>
+                <h2>A little about me...</h2>
+                <div className='blurb'>I am a budding, enthusiastic software developer. <br />Coding is truly amazing and incapsulates the perfect balance of challenges and joys. <br />Solving a coding problem is one of the best ways that I can spend my time.<br />Sometimes it is hard to believe that coding is considered a "job"!
+                </div>
+            </div>
+        </>           
+    );
+};
 export default About;

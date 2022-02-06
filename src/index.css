@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
 
 .universal{
     background-color: #f4effd;
 }
-
+/* nav */
 .main-color {
-    background-color: #6121dd;
+    background-color: #055;
 }
 .nav-items, .nav-items:hover {
     color: #fff;
@@ -33,12 +34,12 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 50px;
+    margin: 0 50px;
 }
 .background-style {
     background: linear-gradient(#d4c3f6, #b597ef, #d4c3f6);
     margin: 0 auto;
-    height: 525px;
+    height: 545px;
     border: 2px solid #a079eb;
   }
 .live-button{
@@ -62,52 +63,54 @@
     font-weight: 700;
 }
 /* about */
-.card{
+.card-katie{
     background-color: #f4effd;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-gap: 20px;
     width: 500px;
-    border: 5px solid #6121dd;
-    border-right: 10px solid #6121dd;
-    border-top: 10px solid #6121dd;
-    border-bottom: 10px solid #6121dd;
+    border: 5px solid #055;
+    border-right: 10px solid #055;
+    border-top: 10px solid #055;
+    border-bottom: 10px solid #055;
     margin: 0 auto;
-
 }
 .headshot{
     height: 250px;
     width: 250px;
-    border: 5px solid #6121dd;
-    border-right: 10px solid #6121dd;
+    border-left: 5px solid #055;
+    border-right: 10px solid #055;
     grid-column: 1/2;
 }
 .card-items{
     grid-column: 2/2;
     margin-top: 70px;
 }
+
 .name{
     color: #331275;
     font-family: "Comforter", cursive;
     font-weight: 600;
+    font-size: 45px;
 }
 .contact-info{
-    color: #331275;
-
+    color: #6121dd;
+    padding-top: 10px;
 }
 .contact-info:hover{
-    color: #331275;
+    color: #099;
     text-decoration: none;
     cursor: pointer;
 
 }
 .brand{
-    background-color: #6121dd;
+    background-color: #055;
     text-align: center;
     width: 80%;
     margin: 0 auto;
     margin-top: 20px;
     color: #f4effd;
+    padding-top: 10px;
 }
 .blurb{
     font-size: 20px;
@@ -130,11 +133,57 @@
 .tech-name{
     font-size: 20px;
     margin: 0 auto;
-    color: #331275
+    color: #6121dd
 
 }
 .full-page{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 10px;
+}
+.logos{
+    width: 70px;
+    height: 85px;
+    padding: 5px;
+}
+.logo-box{
+    display: flex;
+}
+
+.hamburger{
+    height: 45px;
+    width: 45px;
+}
+.skills{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Bungee Shade', cursive;
+    color: #e3b500
+}
+.foot{
+    background-color: #055;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 10px;
+}
+.foot-text, .foot-text-hover{
+    display: inline;
+    padding-right: 15px;
+    padding-left: 10px;
+    color: #f4effd;
+    font-size: 16px;
+}
+.foot-text-hover:hover{
+    color: #a079eb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav-link-katie:hover{
+    color: #a079eb;
+    text-decoration: none;
+    cursor: pointer;
 }

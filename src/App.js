@@ -2,6 +2,7 @@ import Nav from './components/Nav';
 import Skills from './pages/Skills';
 import About from './pages/About';
 import Projects from './pages/Projects';
+import Footer from './components/Footer';
 
 import { Route, Switch } from 'react-router-dom';
 
@@ -22,6 +23,7 @@ function App() {
           <Skills/>
         </Route>
       </Switch>
+      <Footer/>
     </div>
 
   );
