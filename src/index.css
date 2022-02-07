@@ -142,9 +142,10 @@
 
 }
 .tech-name{
-    font-size: 20px;
+    font-size: 15px;
     margin: 0 auto;
-    color: #6121dd
+    color: #6121dd;
+    font-weight: 700;
 
 }
 .full-page{
