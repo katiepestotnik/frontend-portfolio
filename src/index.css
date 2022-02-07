@@ -79,7 +79,7 @@
     margin: 0 auto;
 }
 .headshot{
-    height: 260px;
+    height: 290px;
     width: 250px;
     border-left: 5px solid #055;
     border-right: 10px solid #055;
@@ -160,6 +160,7 @@
 }
 .logo-box{
     display: flex;
+    justify-content: space-around;
 }
 
 .hamburger{
@@ -203,6 +204,6 @@
     justify-content: center;
 }
 .software {
-    font-size: 18px;
-    color: #055
+    font-size: 16px;
+    color: #055;
 }

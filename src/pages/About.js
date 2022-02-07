@@ -18,8 +18,8 @@ function About(props) {
                 <div id='contact' className='card-items'>
                     <h1 className='name'>{about.name}</h1>
                     <h1 className="software">Software Developer</h1>
+                    <div className="software">Katie.Pestotnik@gmail.com</div>
                     <div className="logo-box">
-                        <a href="mailto:katie.pestotnik@gmail.com" className='contact-info'><img className="logos" src="http://lofrev.net/wp-content/photos/2016/06/email_logo.png" alt="email"/></a>
                         <a href="https://github.com/katiepestotnik" target="_blank" rel="noopener noreferrer" className='contact-info'
                         ><img className="logos" src="https://1000logos.net/wp-content/uploads/2018/11/GitHub-logo.png" alt="github logo"/></a>
                         <a href={pdf} target="_blank" download="CurrentResume.pdf" className='contact-info' rel='noreferrer noopener'><img className="logos" src="https://www.conovercompany.com/wp-content/uploads/2019/06/wr-resumes-logo.png" alt="resume logo" /></a>

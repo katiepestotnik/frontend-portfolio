@@ -62,7 +62,7 @@ function Skills(props) {
         <div className='entire'>
             <MDBAnimation duration="3s"
             infinite="true"
-            className="animated tada skills">Skills</MDBAnimation>
+                className="animated tada skills">Skills</MDBAnimation>
         <div className="full-page">
             {skills.map((skill) => {
                 return (
