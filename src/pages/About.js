@@ -1,7 +1,7 @@
 import pdf from '../CurrentResume.pdf'
 const about = {
     "name": "Katie Pestotnik",
-    "photo": "https://i.imgur.com/zR7X6uB.jpg?2",
+    "photo": "https://i.imgur.com/h5tHxQt.jpg",
     "brand": "I am a budding software developer with a background in a variety of administrative roles. I use my grit to solve complex problems by pushing through roadblocks and breaking down the parts of a problem to allow code to run the way it is designed to run. I am motivated by a passion for excellence and personal growth. Coding is truly amazing and the perfect balance of challenges and joys." ,
     "tech": "Javascript, React, React Native, Ruby, Ruby on Rails, MongoDB, PostgreSQL, Express, Node, CSS, HTML, Bootstrap",
     "resume": "https://docs.google.com/document/d/e/2PACX-1vSeEK25Q_oQtS6m_HsBvtwdPUW-cs6u-Tg2o6j449hF79yRK5uulWv0eP6-CgmOpw/pub",
