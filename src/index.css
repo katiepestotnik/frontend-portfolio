@@ -67,7 +67,7 @@
 }
 /* about */
 .card-katie{
-    background-color: #f4effd;
+    background-color: #fff;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-gap: 20px;
@@ -162,6 +162,7 @@
 .logo-box{
     display: flex;
     justify-content: space-around;
+    background-color: #f4effd;
 }
 
 .hamburger{
