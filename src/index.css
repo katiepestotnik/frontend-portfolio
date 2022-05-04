@@ -209,3 +209,10 @@
     font-size: 16px;
     color: #055;
 }
+.recognition{
+    border: 5px solid #331275
+}
+.recognition-text{
+    color: #e3b500;
+    font-weight: 900;
+}

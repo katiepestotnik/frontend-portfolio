@@ -23,7 +23,7 @@ const skills = [{
     img: "https://icon-library.com/images/postgresql-icon/postgresql-icon-12.jpg"
 },{
     tech: "SQL",
-    img: "https://www.macworld.co.uk/cmsdata/features/3638150/setup_learn_sql_mac_thumb800.jpg"
+    img: "https://i0.wp.com/learn.onemonth.com/wp-content/uploads/2019/07/image2-1.png?fit=600%2C315&ssl=1"
 },{
     tech: "Node.js",
     img: "https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg"
