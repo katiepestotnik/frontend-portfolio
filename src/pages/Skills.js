@@ -54,7 +54,15 @@ const skills = [{
     }, {
     tech: "GitHub",
     img: "https://1000logos.net/wp-content/uploads/2018/11/GitHub-logo.png"
-}
+    },
+    {
+        tech: "Python",
+        img: "https://logos-world.net/wp-content/uploads/2021/10/Python-Symbol.png"
+    },
+    {
+        tech: "django",
+        img: "https://www.djangoproject.com/m/img/logos/django-logo-negative.svg"
+    },
 ]
 
 function Skills(props) {
