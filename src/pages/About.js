@@ -11,7 +11,6 @@ const about = {
 }
 
 function About(props) {
-    console.log(about.recognition)
     return (
         <>
             <br />
@@ -32,10 +31,6 @@ function About(props) {
                 <h2 className="blurb-title">A little about me...</h2>
                 <div className='blurb'>I am a budding, enthusiastic software developer. <br />Coding is truly amazing and incapsulates the perfect balance of challenges and joys. <br />Solving a coding problem is one of the best ways that I can spend my time.<br />I also spend a lot of time walking my wonderful dogs, practicing Aikido, and studying Japanese. 
                 </div>
-                <section>
-                    <div className="blurb-title recognition-text">GA Instructional Associate Recognition</div>
-                    <img className="brand recognition" src={about.recognition} alt="ga"></img>
-                </section>
             </div>
         </>           
     );

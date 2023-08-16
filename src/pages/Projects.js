@@ -13,7 +13,7 @@ const projects =[{
 },
 {
     "name": "My Japanese Library",
-    "live": "https://my-japanese-library.herokuapp.com/",
+    "live": "https://my-japanese-library-8622f44bc0ba.herokuapp.com/",
     "image": "https://i.imgur.com/Axj10XR.png",
     "showcase": "Full stack application with Express and Embedded Javascript(EJS).",
     "github":"https://github.com/katiepestotnik/my-japanese-library"
