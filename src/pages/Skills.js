@@ -47,7 +47,7 @@ const skills = [{
     img: "https://openjsf.org/wp-content/uploads/sites/84/2019/10/jquery-logo-vertical_large_square.png"
 },{
     tech: "EJS",
-    img: "https://techdoma.in/images/overview-of-ejs-templating-engine.png"
+    img: "https://miro.medium.com/v2/resize:fit:1400/1*5xR5P6dzu4LpyMaR2QMphA.jpeg"
     }, {
     tech: "git",
     img: "https://ih1.redbubble.net/image.1706995751.4767/st,small,507x507-pad,600x600,f8f8f8.jpg"
