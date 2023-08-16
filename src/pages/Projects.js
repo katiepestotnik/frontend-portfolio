@@ -1,4 +1,19 @@
-const projects =[{
+const projects = [
+    {
+        "name": "Explore Nasa",
+        "live": "https://katiepestotnik.github.io/explore-nasa/",
+        "image": "https://i.imgur.com/bx9ceOC.png",
+        "showcase": "Static frontend application with Javascript, jQuery, HTML, CSS.",
+        "github":"https://github.com/katiepestotnik/explore-nasa"
+    },
+    {
+        "name": "My Japanese Library",
+        "live": "https://my-japanese-library-8622f44bc0ba.herokuapp.com/",
+        "image": "https://i.imgur.com/Axj10XR.png",
+        "showcase": "Full stack application with Express and Embedded Javascript(EJS).",
+        "github":"https://github.com/katiepestotnik/my-japanese-library"
+    },
+    {
     "name": "The Dream Achiever",
     "live": "https://the-dream-achiever.netlify.app/",
     "image": "https://i.imgur.com/NuqZB76.png",
@@ -12,26 +27,13 @@ const projects =[{
     "github":"https://github.com/katiepestotnik/movie-reviewer-frontend"
 },
 {
-    "name": "My Japanese Library",
-    "live": "https://my-japanese-library-8622f44bc0ba.herokuapp.com/",
-    "image": "https://i.imgur.com/Axj10XR.png",
-    "showcase": "Full stack application with Express and Embedded Javascript(EJS).",
-    "github":"https://github.com/katiepestotnik/my-japanese-library"
-    },
-{
     "name": "The Registry",
     "live": "https://the-registry.netlify.app/",
     "image": "https://i.imgur.com/xovzw0N.png",
     "showcase": "Full stack application with React and Express built as a team using Agile development.",
     "github":"https://github.com/katiepestotnik/the-registry-frontend"
     },
-{
-    "name": "Explore Nasa",
-    "live": "https://explore-nasa.herokuapp.com/",
-    "image": "https://i.imgur.com/bx9ceOC.png",
-    "showcase": "Static frontend application with Javascript, jQuery, HTML, CSS.",
-    "github":"https://github.com/katiepestotnik/explore-nasa"
-}]
+]
 
 function Projects(props) {
     return (
