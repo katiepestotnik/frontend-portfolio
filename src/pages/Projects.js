@@ -14,18 +14,19 @@ const projects = [
         "github":"https://github.com/katiepestotnik/my-japanese-library"
     },
     {
+        "name": "Movie Reviewer",
+        "live": "https://expo.dev/@katiepestotnik/movie-reviewer",
+        "image": "https://i.imgur.com/ih7WpAK.png",
+        "showcase": "Mobile full stack application with React Native and Express.",
+        "github":"https://github.com/katiepestotnik/movie-reviewer-frontend"
+    },
+    {
     "name": "The Dream Achiever",
     "live": "https://the-dream-achiever.netlify.app/",
     "image": "https://i.imgur.com/NuqZB76.png",
     "showcase": "Full stack application with Ruby on Rails and React.",
     "github":"https://github.com/katiepestotnik/goal-setter-react"
-    }, {
-    "name": "Movie Reviewer",
-    "live": "https://expo.dev/@katiepestotnik/movie-reviewer",
-    "image": "https://i.imgur.com/ih7WpAK.png",
-    "showcase": "Mobile full stack application with React Native and Express.",
-    "github":"https://github.com/katiepestotnik/movie-reviewer-frontend"
-},
+    },
 {
     "name": "The Registry",
     "live": "https://the-registry.netlify.app/",
