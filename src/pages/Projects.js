@@ -7,6 +7,13 @@ const projects = [
         "github":"https://github.com/katiepestotnik/explore-nasa"
     },
     {
+        "name": "Ellie's Page",
+        "live": "https://ellies-page.netlify.app/",
+        "image": "https://i.imgur.com/fO2rkD6.png",
+        "showcase": "Static, mobile responsive frontend application with handmade carousel, typer function made as a gift.",
+        "github": "https://github.com/katiepestotnik/ellies-page"
+    },
+    {
         "name": "My Japanese Library",
         "live": "https://my-japanese-library-8622f44bc0ba.herokuapp.com/",
         "image": "https://i.imgur.com/Axj10XR.png",
@@ -21,18 +28,18 @@ const projects = [
         "github":"https://github.com/katiepestotnik/movie-reviewer-frontend"
     },
     {
-    "name": "The Dream Achiever",
-    "live": "https://the-dream-achiever.netlify.app/",
-    "image": "https://i.imgur.com/NuqZB76.png",
-    "showcase": "Full stack application with Ruby on Rails and React.",
-    "github":"https://github.com/katiepestotnik/goal-setter-react"
+        "name": "The Dream Achiever",
+        "live": "https://the-dream-achiever.netlify.app/",
+        "image": "https://i.imgur.com/NuqZB76.png",
+        "showcase": "Full stack application with Ruby on Rails and React.",
+        "github":"https://github.com/katiepestotnik/goal-setter-react"
     },
-{
-    "name": "The Registry",
-    "live": "https://the-registry.netlify.app/",
-    "image": "https://i.imgur.com/xovzw0N.png",
-    "showcase": "Full stack application with React and Express built as a team using Agile development.",
-    "github":"https://github.com/katiepestotnik/the-registry-frontend"
+    {
+        "name": "The Registry",
+        "live": "https://the-registry.netlify.app/",
+        "image": "https://i.imgur.com/xovzw0N.png",
+        "showcase": "Full stack application with React and Express built as a team using Agile development.",
+        "github":"https://github.com/katiepestotnik/the-registry-frontend"
     },
 ]
 
