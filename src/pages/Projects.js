@@ -10,8 +10,15 @@ const projects = [
         "name": "Ellie's Page",
         "live": "https://ellies-page.netlify.app/",
         "image": "https://i.imgur.com/fO2rkD6.png",
-        "showcase": "Static, mobile responsive frontend application with handmade carousel, typer function made as a gift.",
+        "showcase": "Static, mobile responsive frontend application with handmade carousel, made as a gift for my niece.",
         "github": "https://github.com/katiepestotnik/ellies-page"
+    },
+    {
+        "name": "Tic Tac Toe",
+        "live": "https://katiepestotnik.github.io/TTT/",
+        "image": "https://i.imgur.com/UjzxCDF.png",
+        "showcase": "Static, mobile responsive frontend browser game.",
+        "github": "https://github.com/katiepestotnik/TTT"
     },
     {
         "name": "My Japanese Library",
