@@ -16,7 +16,7 @@ const projects = [
     {
         "name": "Tic Tac Toe",
         "live": "https://katiepestotnik.github.io/TTT/",
-        "image": "https://i.imgur.com/UjzxCDF.png",
+        "image": "https://i.imgur.com/DSiQhgS.png",
         "showcase": "Static, mobile responsive frontend browser game.",
         "github": "https://github.com/katiepestotnik/TTT"
     },
