@@ -37,7 +37,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin: 0 50px;
+
 }
 .background-style {
     background: linear-gradient(#d4c3f6, #b597ef, #d4c3f6);
