@@ -44,7 +44,7 @@ const skills = [{
     img: "https://code.makery.ch/library/html-css/part7/bootstrap-logo.png"
 },{
     tech: "jQuery",
-    img: "https://openjsf.org/wp-content/uploads/sites/84/2019/10/jquery-logo-vertical_large_square.png"
+    img: "https://cdn.worldvectorlogo.com/logos/jquery-4.svg"
 },{
     tech: "EJS",
     img: "https://miro.medium.com/v2/resize:fit:1400/1*5xR5P6dzu4LpyMaR2QMphA.jpeg"
