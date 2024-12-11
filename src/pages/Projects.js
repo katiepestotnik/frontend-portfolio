@@ -54,7 +54,11 @@ const projects = [
 function Projects(props) {
     return (
         <div className="entire">
-            <section className='style-projects'>
+            <div className="construct">
+            <img  className='construction' alt='under construction'src='https://i.imgur.com/h1f0pby.png'/>
+            </div>
+
+            {/* <section className='style-projects'>
             {projects.map((project) => {
             return <div>
                 <h3 className='title'>{project.name}</h3>
@@ -68,7 +72,7 @@ function Projects(props) {
                         
                 </div>
             })}
-            </section>
+            </section> */}
         </div>)
 }
 

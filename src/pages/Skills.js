@@ -26,7 +26,7 @@ const skills = [{
     img: "https://i0.wp.com/learn.onemonth.com/wp-content/uploads/2019/07/image2-1.png?fit=600%2C315&ssl=1"
 },{
     tech: "Node.js",
-    img: "https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg"
+    img: "https://philna.sh/_astro/node.DvAuachI_1ovMWA.webp"
 },{
     tech: "Express.js",
     img: "https://miro.medium.com/max/1400/1*8ETcaw-gA1dYW4EFxqGK3w.png"

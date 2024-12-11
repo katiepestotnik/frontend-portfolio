@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
 
+.construct {
+    display: flex;
+}
+
+.construction {
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+}
+
 .universal{
     background-color: #fff;
 }
