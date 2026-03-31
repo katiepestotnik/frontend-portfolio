@@ -18,7 +18,8 @@ function About(props) {
                 <img className="headshot" src={about.photo} alt="Headshot" />
                 <div id='contact' className='card-items'>
                     <h1 className='name'>{about.name}</h1>
-                    <h1 className="software">Computer Science Student</h1>
+                    <h1 className="software">Computer Science Student B.S.</h1>
+                    <div hidden="hidden" className="software">test</div>
                     <div className="logo-box">
                         <a href="https://github.com/katiepestotnik" target="_blank" rel="noopener noreferrer" className='contact-info'
                         ><img className="logos" src="https://1000logos.net/wp-content/uploads/2018/11/GitHub-logo.png" alt="github logo"/></a>
