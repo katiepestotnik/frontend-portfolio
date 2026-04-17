@@ -23,7 +23,7 @@ function About(props) {
                     <div className="logo-box">
                         <a href="https://github.com/katiepestotnik" target="_blank" rel="noopener noreferrer" className='contact-info'
                         ><img className="logos" src="https://1000logos.net/wp-content/uploads/2018/11/GitHub-logo.png" alt="github logo"/></a>
-                        <a href={pdf} target="_blank" download="CurrentResume.pdf" className='contact-info' rel='noreferrer noopener'><img className="logos" src="https://www.conovercompany.com/wp-content/uploads/2019/06/wr-resumes-logo.png" alt="resume logo" /></a>
+                        <a href={pdf} target="_blank" download="CurrentResume.docx" className='contact-info' rel='noreferrer noopener'><img className="logos" src="https://www.conovercompany.com/wp-content/uploads/2019/06/wr-resumes-logo.png" alt="resume logo" /></a>
                     </div>
                 </div>
             </section>
