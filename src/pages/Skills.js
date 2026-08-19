@@ -8,7 +8,7 @@ const skills = [{
     img: "https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png"
 },{
     tech: "React",
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1024px-React-icon.svg.png"
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/330px-React_Logo_SVG.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
 },{
     tech: "React Native",
     img: "https://miro.medium.com/max/1400/1*kQ11_TLArd7xGuWiSomBSg.png"
@@ -20,13 +20,13 @@ const skills = [{
     img: "https://miro.medium.com/max/1400/1*lEXUSkEm6M6kIHmKP9HtWg.png"
 },{
     tech: "PostgreSQL",
-    img: "https://icon-library.com/images/postgresql-icon/postgresql-icon-12.jpg"
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/500px-Postgresql_elephant.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
 },{
     tech: "SQL",
     img: "https://i0.wp.com/learn.onemonth.com/wp-content/uploads/2019/07/image2-1.png?fit=600%2C315&ssl=1"
 },{
     tech: "Node.js",
-    img: "https://philna.sh/_astro/node.DvAuachI_1ovMWA.webp"
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/500px-Node.js_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
 },{
     tech: "Express.js",
     img: "https://miro.medium.com/max/1400/1*8ETcaw-gA1dYW4EFxqGK3w.png"
